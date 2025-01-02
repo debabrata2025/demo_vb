@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-const uri = "YOUR_MONGODB_CONNECTION_STRING"; // Replace with your MongoDB URI
+const uri = "mongodb+srv://medebu2021:rA05cmIVx85P3a1S@cluster0.70fxw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your MongoDB URI
 const client = new MongoClient(uri);
 let bookingsCollection;
 
